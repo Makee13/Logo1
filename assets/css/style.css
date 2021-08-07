@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+.logo-img-main {
+    background: url('../img/forestbridge.jpg') center center / cover no-repeat;
+    min-height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+}
+
+.logo-img-main a {
+    color: #fff;
+    margin-left: 8px;
+}
+
+.logo-img-main a:hover {
+    opacity: 0.6;
+}
+
+.logo-img-main h1 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 64px!important;
+    font-weight: 400;
+    text-align: center;
+}
+
+.logo-img-main h1::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #ccc;
+    opacity: 0.8;
+    width: 40%;
+    position: absolute;
+    bottom: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo-img-main h1 p{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo-img-main > p {
+    text-transform: initial;
+    position: absolute;
+    left: 20px;
+}
+
+.logo-img-main > p:nth-child(2) {
+    font-size: 25px;
+    top: 16px;
+}
+
+.logo-img-main > p:last-child {
+    font-size: 15px;
+    bottom: 16px;
+}
